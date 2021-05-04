@@ -34,9 +34,11 @@ INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
-    'django.contrib.sessions',
+    'django.contrib.sessions',      
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #Add new apps to the list here so they are included in the search path
+    "Home"
 ]
 
 MIDDLEWARE = [
@@ -54,7 +56,7 @@ ROOT_URLCONF = 'BasedLove.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -66,6 +68,8 @@ TEMPLATES = [
         },
     },
 ]
+
+STATICFILES_DIRS = [BASE_DIR / 'static']
 
 WSGI_APPLICATION = 'BasedLove.wsgi.application'
 
