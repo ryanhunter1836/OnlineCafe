@@ -20,3 +20,8 @@ The following link is useful for getting started on VS Code:
 https://code.visualstudio.com/docs/python/tutorial-django
 
 However, you're welcome to use whatever environment you want
+
+###### Diagrams
+The diagrams are created using an open source web tool that can be accessed at draw.io
+To edit, open the Diagrams.drawio file on the website
+Alternatively (and the easiest), there is an extension on VS Code called "Draw.io Integration" that can be used to edit the diagrams
