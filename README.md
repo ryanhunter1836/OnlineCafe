@@ -1,10 +1,10 @@
 # BasedLove
 
 ###### Why did we make this app?
-This app was created out of frustration with current dating apps.  For more context, look at the following link
+This app was created out of frustration with current matchmaking apps.  For more context, look at the following link
 https://www.vox.com/2019/2/7/18210998/tinder-algorithm-swiping-tips-dating-app-science
 
-Basically, modern dating apps all use a system where they try to predict who will like you and silo people into specific categories.
+Basically, modern matchmaking apps all use a system where they try to predict who will like you and silo people into specific categories.
 If you don't fit the ideal profile, you're unlikely to get matches (unless you pay for locked features)
 
 Our solution isn't fundamentally different, in fact it works how you expect dating apps to work
